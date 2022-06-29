@@ -1,0 +1,90 @@
+/* TODO: Update page so you don't have to click on the titles to see the drop downs, check out the hints */
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #eaf0f2;
+}
+
+#welcome {
+    padding: 15px 0px 15px 25px;
+    font-weight: bold;
+}
+
+#cliff {
+    padding-left: 25px;
+}
+
+.navbar {
+    padding: 0;
+    font-size: 25px;
+    background-color: #263238;
+    height: 75px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #546E7A;
+    color: #eaf0f2
+}
+
+.navbar-brand {
+    color: #eaf0f2;
+    font-size: 42px;
+    padding: 15px 35px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #eaf0f2;
+    font-size: 25px;
+    background-color: #263238;
+    height: 75px;
+}
+
+.dropdown-menu { /* TODO: Get rid of the gap between the dropdown and the nav bar */
+    background-color: #263238;
+    padding: 0;
+}
+
+.dropdown-item {
+    color: #eaf0f2;
+    font-size: 25px;
+    background-color: #263238;
+    height: auto; /* TODO: Check why when set to 45px it messes it up */
+    line-height: 45px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: all 0.6s;
+}
+
+.dropdown-item:hover {
+    background-color: #CFD8DC;
+}
+
+
+footer {
+    background-color: #263238;
+    font-size: 18px;
+    padding: 50px;
+    margin-top: 75px;
+    text-align: center;
+}
+.footer {
+    color:#B0BEC5;
+    font-weight: bold;
+}
+
+.footer.logo {
+    color: #B0BEC5;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.links {
+    text-decoration: none;
+    color: #eaf0f2;
+    font-weight: bold;
+    padding: 15px 5px 15px;
+}
+
+.copyright {
+    font-size: 16px;
+}
