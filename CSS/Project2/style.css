@@ -15,37 +15,46 @@ body {
     width: 50vw;
 }
 
+/* Background color #263238 */
+.my-bg-color {
+    background-color: #263238;
+}
+
+/*
+.navbar .navbar-nav .nav-link:hover
+.navbar-brand, .navbar-brand:hover
+.navbar .navbar-nav .nav-link
+.navbar .nav-item .dropdown-item
+.links
+ */
+.my-font-color {
+    color: #eaf0f2;
+}
+
 .navbar {
     padding: 0;
     font-size: 25px;
-    background-color: #263238;
     height: 75px;
 }
 
 .navbar .navbar-nav .nav-link:hover {
     background-color: #546E7A;
-    color: #eaf0f2
 }
 
 .navbar-brand, .navbar-brand:hover {
-    color: #eaf0f2;
     font-size: 42px;
     padding: 15px 35px;
     text-decoration: none;
 }
 
 .navbar .navbar-nav .nav-link {
-    color: #eaf0f2;
     font-size: 25px;
-    background-color: #263238;
     height: 75px;
     padding: 15px 20px
 }
 
 /* CSS for auto display on hover for dropdowns below */
 .navbar .nav-item .dropdown-menu {
-    display: none;
-    background-color: #263238;
     display: none;
     margin-top: 0;
     border-radius: 0;
@@ -58,16 +67,13 @@ body {
 /* CSS for auto display on hover for dropdowns above */
 
 .navbar .nav-item .dropdown-item {
-    color: #eaf0f2;
     font-size: 25px;
-    background-color: #263238;
     height: auto; /* TODO: Check why when set to 45px it messes it up */
     line-height: 45px;
     padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
     transition: all 0.6s;
-    margin-top: 0;
 }
 
 .navbar .nav-item .dropdown-item:hover {
@@ -76,30 +82,31 @@ body {
 
 
 footer {
-    background-color: #263238;
-    font-size: 18px;
-    padding: 50px;
     margin-top: 75px;
+    padding: 50px;
     text-align: center;
+    font-weight: bold;
 }
 .footer {
     color:#B0BEC5;
-    font-weight: bold;
 }
 
 .footer.logo {
-    color: #B0BEC5;
     font-size: 28px;
-    font-weight: bold;
+    padding-bottom: 25px;
 }
 
 .links {
     text-decoration: none;
-    color: #eaf0f2;
-    font-weight: bold;
-    padding: 15px 5px 15px;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+
+.links:hover {
+    color: #CFD8DC;
 }
 
 .copyright {
     font-size: 16px;
+    padding-top: 20px;
 }
