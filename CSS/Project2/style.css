@@ -1,4 +1,3 @@
-/* TODO: Update page so you don't have to click on the titles to see the drop downs, check out the hints */
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #eaf0f2;
@@ -11,6 +10,9 @@ body {
 
 #cliff {
     padding-left: 25px;
+    height: auto;
+    max-height: 70vh;
+    width: 50vw;
 }
 
 .navbar {
@@ -25,10 +27,11 @@ body {
     color: #eaf0f2
 }
 
-.navbar-brand {
+.navbar-brand, .navbar-brand:hover {
     color: #eaf0f2;
     font-size: 42px;
     padding: 15px 35px;
+    text-decoration: none;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -36,14 +39,25 @@ body {
     font-size: 25px;
     background-color: #263238;
     height: 75px;
+    padding: 15px 20px
 }
 
-.dropdown-menu { /* TODO: Get rid of the gap between the dropdown and the nav bar */
+/* CSS for auto display on hover for dropdowns below */
+.navbar .nav-item .dropdown-menu {
+    display: none;
     background-color: #263238;
-    padding: 0;
+    display: none;
+    margin-top: 0;
+    border-radius: 0;
+    border-width: 0;
 }
 
-.dropdown-item {
+.navbar .nav-item:hover .dropdown-menu{
+    display: block;
+}
+/* CSS for auto display on hover for dropdowns above */
+
+.navbar .nav-item .dropdown-item {
     color: #eaf0f2;
     font-size: 25px;
     background-color: #263238;
@@ -53,9 +67,10 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     transition: all 0.6s;
+    margin-top: 0;
 }
 
-.dropdown-item:hover {
+.navbar .nav-item .dropdown-item:hover {
     background-color: #CFD8DC;
 }
 
