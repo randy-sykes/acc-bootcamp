@@ -15,44 +15,43 @@ div {
 div:nth-child(1) {
     position: absolute;
     background-color: #f90015;
-    width: 68.3vw;
-    height: 50vh;
+    width: 60vw;
+    height: 70vh;
 }
 
 div:nth-child(2) {
     position: absolute;
     background-color: #f5ff29;
-    height: 350px;
-    width: 350px;
-    right: 0;
-    top: 53.1%;
+    height: 25vh;
+    width: 20.5vw;
+    left: 67vw;
+    top: 70.5vh;
 }
 
 div:nth-child(3) {
     position: absolute;
     background-color: #1a8918;
-    top: 53.1%;
-    height: 350px;
-    width: 34vw;
+    top: 70.5vh;
+    height: 25vh;
+    width: 37.8vw;
 }
 
 div:nth-child(4) {
     background-color: white;
     position: absolute;
-    padding-left: 300px;
-    width: 200px;
-    height: 85px;
-    right: 0;
+    width: 27.3vw;
+    height: 13vh;
+    left: 60.2vw;
 
 }
 
 div:nth-child(5) {
     background-color: white;
     position: absolute;
-    top: 53.1%;
-    height: 350px;
-    width: 300px;
-    right: 47%;
+    top: 70.5vh;
+    height: 25vh;
+    width: 12vw;
+    left: 37.8vw;
 
 
 }
@@ -60,55 +59,51 @@ div:nth-child(5) {
 div:nth-child(6) {
     background-color: white;
     position: absolute;
-    width: 500px;
-    height: 350px;
-    top: 53.1%;
-    right: 355px;
-
+    height: 25vh;
+    width: 17vw;
+    left: 50vw;
+    top: 70.5vh;
 }
 
 div:nth-child(7) {
     background-color: white;
     position: absolute;
-    padding-left: 300px;
-    width: 200px;
-    height: 80px;
-    right: 0;
-    top:10%;
+    width: 27.3vw;
+    height: 13vh;
+    left: 60.2vw;
+    top:13.5vh;
 
 }
 
 div:nth-child(8) {
     background-color: white;
     position: absolute;
-    top: 19.5%;
-    right: 0;
-    width: 250px;
-    height: 303px;
-    text-align: right;
-
+    top: 27vh;
+    left: 72.5vw;
+    width: 15vw;
+    height: 42.9vh;
 }
 
 div:nth-child(9) {
     position: absolute;
     background-color: #5100fd;
-    top: 19.5%;
-    right: 13.68%;
-    width: 250px;
-    height: 303px;
+    top: 27vh;
+    left: 60.2vw;
+    width: 12vw;
+    height: 42.9vh;
 }
 
 div:nth-child(10) {
     position: absolute;
-    top: 49.2%;
-    left: 18%;
+    top: 67.4vh;
+    left: 19vw;
     transform: translate(-50%, -50%);
-    padding-top: 15px;
+    padding-top: 1.5vh;
     background-color: black;
     color: white;
-    border-radius: 100px 100px 0 0;
-    width: 100px;
-    height: 50px;
+    border-radius: 150vw 150vw 0 0;
+    width: 5vw;
+    height: 4vh;
     font-weight: bolder;
     overflow: hidden;
 }
