@@ -42,7 +42,7 @@ div:nth-child(4) {
     width: 27.3vw;
     height: 13vh;
     left: 60.2vw;
-
+    z-index: -10;
 }
 
 div:nth-child(5) {
@@ -52,8 +52,6 @@ div:nth-child(5) {
     height: 25vh;
     width: 12vw;
     left: 37.8vw;
-
-
 }
 
 div:nth-child(6) {
@@ -72,6 +70,7 @@ div:nth-child(7) {
     height: 13vh;
     left: 60.2vw;
     top:13.5vh;
+    z-index: -10;
 
 }
 
@@ -82,6 +81,7 @@ div:nth-child(8) {
     left: 72.5vw;
     width: 15vw;
     height: 42.9vh;
+    z-index: -10;
 }
 
 div:nth-child(9) {
@@ -91,6 +91,7 @@ div:nth-child(9) {
     left: 60.2vw;
     width: 12vw;
     height: 42.9vh;
+    z-index: -10;
 }
 
 div:nth-child(10) {
