@@ -15,6 +15,10 @@ body {
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Background color #263238 */
 .my-bg-color {
     background-color: #263238;
@@ -24,15 +28,29 @@ body {
     color: #eaf0f2;
 }
 
-a:hover {
+.navbar {
+    font-size: 25px;
+    height: 75px;
+    padding-top: 25px;
+    margin-top: -8px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu-title:hover,
+.menu-title .submenu .submenu-items:hover,
+.menu li:hover {
     background-color: #546E7A;
 }
+
 
 .logo {
     font-size: 42px;
     padding: 15px 35px;
     line-height: 35px;
-    text-decoration: none;
 }
 
 .menu {
@@ -47,59 +65,32 @@ a:hover {
 .submenu {
     display: none;
     position: absolute;
-    min-width: 120px;
-    padding: 10px;
-    z-index: 1;
-    min-height: 250px;
+    padding: 15px 20px 15px 20px;
+    overflow: hidden;
+    min-height: 100px;
+    min-width: 150px;
+}
+
+.submenu-items {
+    text-decoration: none;
+    height: 45px;
+    line-height: 45px;
+    padding: 15px 20px;
+    min-width: 150px;
 }
 
 .menu:hover .submenu {
+    margin-top: 26px;
     display: block;
 }
 
-.navbar {
-    height: 60px;
-    padding: 15px 20px;
-}
-
-/* .menu {
-    position: relative;
-    display: inline-block;
-    min-width: 120px;
-}
-
-.submenu {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 100%;
-    background-color: #263238;
-    transition: all 0.6s;
-
-}
-
-.menu:focus .submenu,
-.menu:focus-within .submenu,
-.menu:hover .submenu {
-    visibility: visible;
-    opacity: 1;
-    z-index: 1;
-}
-
-ul li {
-    display:inline-block;
-} */
-
-
-
 footer {
     margin-top: 75px;
-    padding: 50px;
+    padding: 50px 50px 92px 50px;
     text-align: center;
     font-weight: bold;
 }
+
 .footer {
     color:#B0BEC5;
 }
