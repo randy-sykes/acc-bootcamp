@@ -1,10 +1,11 @@
 body {
-    position: absolute;
+    position: relative;
     font-family: 'Mansalva', cursive;
     font-size: 20px;
     text-align: center;
-    height: 100vh;
-    width: 100vw;
+    height: 95vh;
+    width: 95vw;
+    background-color: black;
 }
 
 div {
@@ -12,17 +13,102 @@ div {
 }
 
 div:nth-child(1) {
-    position: relative;
-    background-color: red;
-    height: 100vh;
-    width: 100vw;
+    position: absolute;
+    background-color: #f90015;
+    width: 68.3vw;
+    height: 50vh;
 }
 
 div:nth-child(2) {
-    background-color: yellow;
-    position: relative;
-    right: 85vw;
-    bottom: 0;
-    left: 75vw;
-    top:-50px;
+    position: absolute;
+    background-color: #f5ff29;
+    height: 350px;
+    width: 350px;
+    right: 0;
+    top: 53.1%;
+}
+
+div:nth-child(3) {
+    position: absolute;
+    background-color: #1a8918;
+    top: 53.1%;
+    height: 350px;
+    width: 34vw;
+}
+
+div:nth-child(4) {
+    background-color: white;
+    position: absolute;
+    padding-left: 300px;
+    width: 200px;
+    height: 85px;
+    right: 0;
+
+}
+
+div:nth-child(5) {
+    background-color: white;
+    position: absolute;
+    top: 53.1%;
+    height: 350px;
+    width: 300px;
+    right: 47%;
+
+
+}
+
+div:nth-child(6) {
+    background-color: white;
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    top: 53.1%;
+    right: 355px;
+
+}
+
+div:nth-child(7) {
+    background-color: white;
+    position: absolute;
+    padding-left: 300px;
+    width: 200px;
+    height: 80px;
+    right: 0;
+    top:10%;
+
+}
+
+div:nth-child(8) {
+    background-color: white;
+    position: absolute;
+    top: 19.5%;
+    right: 0;
+    width: 250px;
+    height: 303px;
+    text-align: right;
+
+}
+
+div:nth-child(9) {
+    position: absolute;
+    background-color: #5100fd;
+    top: 19.5%;
+    right: 13.68%;
+    width: 250px;
+    height: 303px;
+}
+
+div:nth-child(10) {
+    position: absolute;
+    top: 49.2%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 100px 100px 0 0;
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+    overflow: hidden;
 }
