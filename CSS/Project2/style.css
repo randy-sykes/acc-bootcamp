@@ -63,7 +63,7 @@ body {
 
 .navbar .nav-item .dropdown-item {
     font-size: 25px;
-    height: auto; /* TODO: Check why when set to 45px it messes it up but auto is fine */
+    height: 45px; /* TODO: Check why when set to 45px it messes it up but auto is fine */
     line-height: 45px;
     padding: 15px 20px;
     transition: all 0.6s;
