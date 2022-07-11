@@ -1,6 +1,8 @@
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #eaf0f2;
+    margin: 0;
+    padding: 0;
 }
 
 #welcome {
